@@ -4,8 +4,6 @@
   "private": true,
   "description": "Themedd Starter",
   "dependencies": {
-    "dotsunited-equal-height-blocks": "3.1.0",
-    "gee.less": "3.0.0",
     "magnific-popup": "^1.1.0"
   },
   "devDependencies": {
