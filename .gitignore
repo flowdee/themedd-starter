@@ -1,0 +1,30 @@
+# WordPress
+/web/.htaccess
+/web/wp-admin
+/web/wp-includes
+/web/wp-content/languages/*
+/web/wp-content/mu-plugins/*
+/web/wp-content/plugins/*
+/web/wp-content/upgrade
+/web/wp-content/themes/*
+/web/wp-content/uploads
+/web/wp-content/index.php
+/web/wp-content/db.php
+/web/wp-content/debug.log
+/web/wp-*.php
+/web/index.php
+/web/license.txt
+/web/liesmich.html
+/web/readme.html
+/web/sitemap-video.xml
+/web/sitemap.xml
+/web/sitemap.xml.gz
+/web/xmlrpc.php
+
+# Project
+!/web/wp-content/themes/themedd-starter
+
+# Development
+/node_modules
+/vendor
+
