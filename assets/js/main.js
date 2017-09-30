@@ -1,0 +1,3 @@
+(function($) {
+    // Silence
+})( jQuery );

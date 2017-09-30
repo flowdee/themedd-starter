@@ -1,0 +1,78 @@
+// -- Typography --
+@typography-base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+@typography-base-font-size: 18px;
+@typography-base-line-height: 1.4;
+@typography-base-color: #4c5357;
+
+@font-color-light: #828688;
+
+// -- Colors: https://coolors.co/407675-4eb7b1-6ef1a8-9ff996-7e57c2 --
+@color-primary: #407675;
+@color-primary-dark: darken(@color-primary, 10%); // #359E98
+@color-secondary: #7e57c2;
+@color-third: #4eb7b1;
+@color-fourth: #6ef1a8;
+@color-fith: #9ff996;
+@color-cta: @color-primary;
+@color-alternative: #748590;
+
+@color-success: #dff0d8;
+@color-info: #d9edf7;
+@color-warning: #fcf8e3;;
+@color-error: #f2dede;
+
+@color-white-light: #e2e1ee; //fade(#fff, 90%);
+
+@color-link: @color-primary;
+@color-link-active: darken(@color-link, 10%);
+
+// -- Units --
+@animation-time: .2s;
+@animation-ease: linear;
+@animation-smooth-time: 1s;
+@animation-smooth-ease: cubic-bezier(0.420, 0.000, 0.580, 1.000);
+@border-width: 3px;
+@border-radius: 3px;
+@gutter: 4%;
+@spacing: 1rem;
+@spacing-large: 100px;
+@spacing-medium: (@spacing-large / 2);
+@spacing-small: (@spacing / 1.5);
+@line-size: 3px;
+
+// -- Breakpoints --
+@breakpoint-large: 1024px;
+@breakpoint-nav: 1035px;
+@breakpoint-theme-nav: 768px;
+@breakpoint-default: 768px;
+@breakpoint-mobile: 480px;
+@breakpoint-tamagotchi: 400px;
+
+// -- Helper --
+.img-responsive() {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+// Clearfix
+// Source: http://nicolasgallagher.com/micro-clearfix-hack/
+//
+// For modern browsers
+// 1. The space content is one way to avoid an Opera bug when the
+// contenteditable attribute is included anywhere else in the document.
+// Otherwise it causes space to appear at the top and bottom of elements
+// that are clearfixed.
+// 2. The use of `table` rather than `block` is only necessary if using
+// `:before` to contain the top-margins of child elements.
+.clearfix() {
+    zoom: 1;
+    &:before,
+    &:after {
+        content: " "; /* 1 */
+        display: table; /* 2 */
+    }
+    &:after {
+        clear: both;
+    }
+}
