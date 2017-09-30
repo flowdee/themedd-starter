@@ -38,6 +38,6 @@ grunt finish
 
 ### Credits
 
-This Themedd Starter theme is built by [flowdee](https://twitter.com/flowdee). 
+This theme is **not** official made or maintained by the team behind _Themedd_. It's built by [flowdee](https://twitter.com/flowdee). 
 
 You like my work? [Support me](https://donate.flowdee.de/) or not. I don't mind, as long as I was able to help you :wink:
